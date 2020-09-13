@@ -30,6 +30,7 @@ github_username:  ouroboros8
 # Build settings
 theme: minima
 plugins:
+  - jemoji
   - jekyll-feed
 
 # Exclude from processing.
