@@ -1,4 +1,6 @@
 _site
+private/images/*
+!private/images/.gitkeep
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
