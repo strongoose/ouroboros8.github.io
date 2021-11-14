@@ -5,6 +5,7 @@ jobs:
     name: Lint writing using alex
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
       - name: Lint
         uses: ouroboros8/alex-action@main
         with:
