@@ -5,7 +5,7 @@ jobs:
     name: Lint writing using alex
     steps:
       - name: Lint
-        uses: theashraf/alex-action
+        uses: theashraf/alex-action@master
         with:
           # Alex's globbing behaviour is a bit wonky, but I believe `.` will
           # run against anything in the repo with text or markdown extensions
