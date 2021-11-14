@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Lint
-        uses: theashraf/alex-action@master
+        uses: ouroboros8/alex-action@master
         with:
           # Alex's globbing behaviour is a bit wonky, but I believe `.` will
           # run against anything in the repo with text or markdown extensions
