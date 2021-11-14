@@ -3,5 +3,5 @@
 set -euo pipefail
 
 cd private/images
-aws s3 sync --acl public-read . s3://assets.glyx.co.uk/blog/
+aws s3 sync --acl public-read --exclude .gitkeep . s3://assets.glyx.co.uk/blog/
 aws s3 sync --acl public-read s3://assets.glyx.co.uk/blog/ .
