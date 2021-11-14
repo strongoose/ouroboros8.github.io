@@ -1,13 +1,12 @@
-name: Check for insensitive writing
+name: alex lint
 on: push
 jobs:
   alex_lint:
-    name: Lint writing using alex
+    name: Check for insensitive writing using alex
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Lint
-        uses: ouroboros8/alex-action@main
+      - uses: ouroboros8/alex-action@main
         with:
           # Alex's globbing behaviour is a bit wonky, but I believe `.` will
           # run against anything in the repo with text or markdown extensions
