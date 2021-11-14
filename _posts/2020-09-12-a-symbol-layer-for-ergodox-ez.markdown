@@ -35,9 +35,10 @@ used in various programming languages along with the various kinds of bracket.
 On the right I have a numpad (quick numpad access has been a gamechanger).
 
 I had a couple of problems with this layout though:
+ <!--alex ignore easy harder-->
  - The keys corresponding to `TGB` on the base layer aren't in use on this
-   layer at all. The `G` and `T` keys in particular are easy to reach, but
-   unused, while I regularly use harder to reach keys like `ZX`.
+   layer at all. The `G` and `T` keys in particular are easy for me to reach,
+   but unused, while I regularly use harder to reach keys like `ZX`.
  - The position of the `|` and `\` keys kept throwing me for a loop.
 
 # Getting data
