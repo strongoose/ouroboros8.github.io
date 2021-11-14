@@ -11,4 +11,4 @@ jobs:
           # Alex's globbing behaviour is a bit wonky, but I believe `.` will
           # run against anything in the repo with text or markdown extensions
           # (https://github.com/get-alex/alex/blob/d4833f81e40597aaabf5a46fe0cc25d7f587267f/cli.js#L29)
-          args: --html .
+          args: .
